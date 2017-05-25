@@ -4,7 +4,9 @@
 	$filiere = $_POST["filiere"];
 	$sem = $_POST["semestre"];
 	//echo $_POST["filiere"]."\n".$_POST["semestre"];
-	$sql = "SELECT * FROM module WHERE semestre = '{$sem}' AND filiere ='{$filiere}' ";
+	//$sql = "SELECT * FROM module WHERE semestre = '{$sem}' AND filiere ='{$filiere}' ";
+
+$sql = "SELECT * FROM `module` WHERE `filiere`='{$filiere}' AND `semestre`='{$sem}' ORDER BY `coefficient` DESC";
 	//echo $sql;
 	$result = $conn->query($sql);
 	//var_dump($result);
