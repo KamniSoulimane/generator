@@ -1,0 +1,183 @@
+<!doctype html> 
+<html lang="fr"> 
+    <head> 
+        <meta charset="utf-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+        <title>Foundation | Welcome</title>         
+        <link rel="stylesheet" href="css/foundation.css" /> 
+        <link rel="stylesheet" href="style.css" /> 
+        <script src="js/vendor/modernizr.js"></script>         
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    </head>     
+    <body> 
+        <form> 
+            <div class="row"> 
+</div>             
+            <div class="row"> 
+                <div class="columns large-3"> 
+                    <label>Filière                               
+                        <select id="filiere"> 
+                            <option value="GL">GL</option>                             
+                            <option value="RSD">RSD</option>                             
+                            <option value="SIC">SIC</option>                             
+                            <option value="MID">MID</option>                             
+                        </select>                         
+                    </label>                     
+                </div>                 
+                <div class="columns large-3"> 
+                    <label>Semestre                               
+                        <select id="semester"> 
+                            <option value="semestre1">semestre 1</option>                             
+                            <option value="semestre2">semestre 2</option>                             
+                        </select>                         
+                    </label>                     
+                </div>                 
+                <div class="columns large-3"> 
+                    <label>&nbsp; 
+</label>                     
+                    <a href="#" class="button expanded" id="generate"><i class="fa fa-gears"></i>  générer un planning</a> 
+                </div>                 
+            </div>             
+        </form>         
+        <div class="row"> 
+            <div class="columns medium-2"> 
+                <table> 
+                    <thead> 
+                        <tr> 
+                            <th width="200">&nbsp;</th> 
+                        </tr>                         
+                    </thead>                     
+                    <tbody> 
+                        <tr> 
+                            <td>9:00 ~ 10:30</td> 
+                        </tr>                         
+                        <tr> 
+                            <td>11:00 ~ 12:30</td> 
+                        </tr>                         
+                        <tr> 
+                            <td>13:00 ~ 14:30</td> 
+                        </tr>                         
+                    </tbody>                     
+                </table>                 
+            </div>             
+            <div class="columns medium-2"> 
+                <table> 
+                    <thead> 
+                        <tr> 
+                            <th width="200">DIMANCHE</th> 
+                        </tr>                         
+                    </thead>                     
+                    <tbody> 
+                        <tr> 
+                            <td id="td11">&nbsp;</td> 
+                        </tr>                         
+                        <tr> 
+                            <td id="td12">&nbsp;</td> 
+                        </tr>                         
+                        <tr> 
+                            <td id="td13">&nbsp;</td> 
+                        </tr>                         
+                    </tbody>                     
+                </table>                 
+            </div>             
+            <div class="columns medium-2"> 
+                <table> 
+                    <thead> 
+                        <tr> 
+                            <th width="200">LUNDI</th> 
+                        </tr>                         
+                    </thead>                     
+                    <tbody> 
+                        <tr> 
+                            <td id="td21">&nbsp;</td> 
+                        </tr>                         
+                        <tr> 
+                            <td id="td22">&nbsp;</td> 
+                        </tr>                         
+                        <tr> 
+                            <td id="td23">&nbsp;</td> 
+                        </tr>                         
+                    </tbody>                     
+                </table>                 
+            </div>             
+            <div class="columns medium-2"> 
+                <table> 
+                    <thead> 
+                        <tr> 
+                            <th width="200">MARDI</th> 
+                        </tr>                         
+                    </thead>                     
+                    <tbody> 
+                        <tr> 
+                            <td id="td31">&nbsp;</td> 
+                        </tr>                         
+                        <tr> 
+                            <td id="td32">&nbsp;</td> 
+                        </tr>                         
+                        <tr> 
+                            <td id="td33">&nbsp;</td> 
+                        </tr>                         
+                    </tbody>                     
+                </table>                 
+            </div>             
+            <div class="columns medium-2"> 
+                <table> 
+                    <thead> 
+                        <tr> 
+                            <th width="200">MERCREDI</th> 
+                        </tr>                         
+                    </thead>                     
+                    <tbody> 
+                        <tr> 
+                            <td id="td41">&nbsp;</td> 
+                        </tr>                         
+                        <tr> 
+                            <td id="td42">&nbsp;</td> 
+                        </tr>                         
+                        <tr> 
+                            <td id="td43">&nbsp;</td> 
+                        </tr>                         
+                    </tbody>                     
+                </table>                 
+            </div>             
+            <div class="columns medium-2"> 
+                <table> 
+                    <thead> 
+                        <tr> 
+                            <th width="200">JEUDI</th> 
+                        </tr>                         
+                    </thead>                     
+                    <tbody> 
+                        <tr> 
+                            <td id="td51">&nbsp;</td> 
+                        </tr>                         
+                        <tr> 
+                            <td id="td52">&nbsp;</td> 
+                        </tr>                         
+                        <tr> 
+                            <td id="td53">&nbsp;</td> 
+                        </tr>                         
+                    </tbody>                     
+                </table>                 
+            </div>             
+        </div>         
+        <div class="row"> 
+            <div class="columns medium-6"> 
+                <h3>Column title</h3> 
+                <p id="data">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
+            </div>
+            <i class="fa fa-glass"></i> 
+        </div>         
+        <!-- Navigation -->         
+        <!-- End Top Bar -->         
+        <!-- Header -->         
+        <!-- End Header -->         
+        <!-- Footer -->         
+        <script src="js/vendor/jquery.min.js"></script>         
+        <script src="js/foundation.min.js"></script>         
+        <script src="js/bring_data.js"></script>         
+        <script>
+          $(document).foundation();
+        </script>         
+    </body>     
+</html>

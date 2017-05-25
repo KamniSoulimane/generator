@@ -1,0 +1,27 @@
+
+
+tr>td
+{
+    height: 120px;
+    text-align: center;
+}
+
+body
+{
+    padding-top: 80px;
+}
+
+tr>th
+{
+}
+
+.fa-glass
+{
+    color: #ff0000;
+}
+
+.list
+{
+    margin-top: 110px;
+}
+
